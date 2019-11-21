@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewPassword" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="menu" type="id" />
+</resources>

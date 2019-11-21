@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_auto_image_slider" type="id" />
+    <item name="iv_auto_image_slider" type="id" />
+</resources>

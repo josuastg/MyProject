@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TicketApp</string>
+    <string name="slogan">Wisata Jadi Lebih Asyik !</string>
+    <string name="signin">SIGN IN </string>
+    <string name="signout">SIGN OUT</string>
+    <string name="newacc">NEW ACCOUNT </string>
+    <string name="username">Username</string>
+    <string name="editprofile">EDIT PROFILE</string>
+    <string name="password">Password</string>
+    <string name="email">Email Address</string>
+    <string name="mybio">Bio</string>
+    <string name="name">Name</string>
+    <string name="viewticket"> VIEW TICKET </string>
+    <string name="mydashboard">MY DASHBOARD </string>
+    <string name="explore">EXPLORE NOW </string>
+    <string name="bio">Your Passion ? </string>
+
+
+</resources>

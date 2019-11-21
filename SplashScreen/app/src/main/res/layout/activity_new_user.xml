@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewUser"
+    android:orientation="vertical"
+    android:background="#ffe6ff">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="#ffffff">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/btnSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:text="Sign Up"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp"
+                android:textStyle="bold" />
+            <EditText
+                android:background="@drawable/edittextstyle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                />
+            <EditText
+                android:background="@drawable/edittextstyle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                />
+            <EditText
+                android:background="@drawable/edittextstyle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Re-Type Password"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                />
+            <EditText
+                android:background="@drawable/edittextstyle"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center_horizontal"
+                android:inputType="number"
+                android:drawableLeft="@drawable/ic_phone_black_24dp"
+                />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Setuju dengan syarat dan ketentuan berlaku"
+                android:textColor="#FF000509"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ffffff"
+                android:text="Sign Up"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+
+                />
+        </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
