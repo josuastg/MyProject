@@ -1,0 +1,109 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.josuaapp.ProfileFragment"
+    android:orientation="vertical"
+    android:background="@color/bgPrimary">
+
+    <TextView
+        android:id="@+id/tvProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mmedium"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Profile"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/tvProfile"
+        android:background="#000"
+        app:layout_constraintTop_toBottomOf="@+id/tvProfile"
+        tools:layout_editor_absoluteX="0dp" />
+    <TextView
+        android:id="@+id/tvSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mmedium"
+        android:text="Settings"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.141" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#000"
+        app:layout_constraintTop_toBottomOf="@+id/tvSettings"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <TextView
+        android:id="@+id/tvSendFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mmedium"
+        android:text="Send Feedback"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/tvProfile"
+        android:background="#000"
+        app:layout_constraintTop_toBottomOf="@+id/tvSendFeedback"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mmedium"
+        android:text="Logout"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/tvProfile"
+        android:background="#000"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogout"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

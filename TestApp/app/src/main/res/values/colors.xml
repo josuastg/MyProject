@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#262626</color>
+    <color name="colorPrimaryDark">#262626</color>
+    <color name="DarkSecondary">#1A1A1A</color>
+    <color name="azur">#f1f5f8</color>
+    <color name="tabtextcolor">#fff</color>
+    <color name="tabindicatorcolor">#2d2d2c</color>
+    <color name="bluePrimary">#203DD1</color>
+    <color name="blueSecondary">#2595F5</color>
+    <color name="blackprimary">#21272C</color>
+    <color name="bgPrimary">#EDF1F8</color>
+    <color name="greenPrimary">#1ABC9C</color>
+
+
+    <color name="grayPrimary">#8D8D8D</color>
+</resources>

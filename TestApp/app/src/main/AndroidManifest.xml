@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.josuaapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SendFeedbackAct" android:theme="@style/AppThema"></activity>
+        <activity android:name=".SettingsAct" android:theme="@style/AppThema"/>
+        <activity android:name=".MyProfileAct" android:theme="@style/AppThema"/>
+        <activity
+            android:name=".JourneyAct"
+            android:theme="@style/AppThema" />
+        <activity
+            android:name=".ContactsAct"
+            android:theme="@style/AppThema" />
+        <activity
+            android:name=".ProfileAct"
+            android:theme="@style/AppThema" />
+        <activity
+            android:name=".VisiMisiAct"
+            android:theme="@style/AppThema" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/mydashboard"
+            android:theme="@style/AppThema" />
+        <activity
+            android:name=".Register"
+            android:theme="@style/AppThema" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppThema" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppThema">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
