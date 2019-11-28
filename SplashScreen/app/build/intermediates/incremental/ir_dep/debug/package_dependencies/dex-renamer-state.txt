@@ -1,4 +1,0 @@
-#Sat Aug 10 16:53:17 ICT 2019
-base.0=C\:\\Users\\windows 10\\AndroidStudioProjects\\SplashScreen\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\10
-path.0=classes.dex
-renamed.0=classes.dex
