@@ -32,35 +32,34 @@
 20-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:10:9-54
 21        android:supportsRtl="true"
 21-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:11:9-35
-22        android:testOnly="true"
-23        android:theme="@style/AppTheme" >
-23-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:12:9-40
-24        <activity
-24-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:13:9-16:25
-25            android:name="com.jojo.listfavoritesdrum.ProfileAct"
-25-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:13:19-45
-26            android:theme="@style/AppTheme" />
-26-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:14:13-44
-27        <activity
-27-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:17:9-19:15
-28            android:name="com.jojo.listfavoritesdrum.DetailDrummer"
-28-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:17:19-48
-29            android:theme="@style/AppThema" />
-29-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:18:13-44
-30        <activity android:name="com.jojo.listfavoritesdrum.MainActivity" >
-30-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:20:9-26:20
-30-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:20:19-47
-31            <intent-filter>
-31-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:21:13-25:29
-32                <action android:name="android.intent.action.MAIN" />
-32-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:22:17-69
-32-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:22:25-66
-33
-34                <category android:name="android.intent.category.LAUNCHER" />
-34-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:24:17-77
-34-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:24:27-74
-35            </intent-filter>
-36        </activity>
-37    </application>
-38
-39</manifest>
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:12:9-40
+23        <activity
+23-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:13:9-16:25
+24            android:name="com.jojo.listfavoritesdrum.ProfileAct"
+24-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:13:19-45
+25            android:theme="@style/AppTheme" />
+25-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:14:13-44
+26        <activity
+26-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:17:9-19:15
+27            android:name="com.jojo.listfavoritesdrum.DetailDrummer"
+27-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:17:19-48
+28            android:theme="@style/AppThema" />
+28-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:18:13-44
+29        <activity android:name="com.jojo.listfavoritesdrum.MainActivity" >
+29-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:20:9-26:20
+29-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:20:19-47
+30            <intent-filter>
+30-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\Users\EnigmaCamp\AndroidStudioProjects\ListFavoritesDrum\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36    </application>
+37
+38</manifest>
