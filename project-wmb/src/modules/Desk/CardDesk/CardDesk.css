@@ -1,0 +1,40 @@
+
+.carddesk{
+    
+    background-image: url('../../../Image/Bg-desk.jpg');
+    margin-left:15% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+    padding: 2px;
+    /* flex-direction: column; */
+    margin-top:15%;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(248, 183, 85, 0.5);
+  }
+  .carddesk p{
+    color: black;
+    align-content: center;
+    text-align: center;
+  }
+  .carddesk button{
+    border: none;
+    width: 40px;
+    padding: 1px;
+    margin-left: 55px;
+    background-color: antiquewhite;
+    }
+
+  .wrapdesk{
+    margin-top:5%;
+    margin-left: 5%;
+    /* margin-right: 2%; */
+    display: inline-block;
+  }
+
+  .detaildesk{
+    color : white;
+    font-weight: bold;
+  }

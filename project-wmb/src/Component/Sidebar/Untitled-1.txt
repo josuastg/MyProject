@@ -1,0 +1,73 @@
+ <FormGroup>
+            <FormControl>
+              <InputLabel htmlFor="my-input">PIC</InputLabel>
+              <Input
+                name="name"
+                onChange={this.handleChange}
+                id="my-input"
+                aria-describedby="my-helper-text" />
+            </FormControl>
+            <FormControl>
+              <InputLabel htmlFor="my-input">Qty Customer</InputLabel>
+              <Input
+                name="qty_customer"
+                type="number"
+                margin="normal"
+                onChange={e => dispatch({ type: "SUBMIT_QTYCUSTOMER", qty_cust: Number(e.target.value) })}
+                id="my-input" aria-describedby="my-helper-text" />
+            </FormControl>
+            <FormControl>
+              <InputLabel htmlFor="my-input">Table</InputLabel>
+              {tables ? <Input
+                value={` ${tables.name}`}
+                id="my-input" aria-describedby="my-helper-text" /> : null}
+            </FormControl>              <br /><br />
+            <FormControl>
+              <InputLabel htmlFor="my-input">Table Capacity</InputLabel>
+              {tables ? <Input
+                value={` ${tables.capacity}`}
+                id="my-input" aria-describedby="my-helper-text" /> : null}
+            </FormControl>              <br /><br />
+            <FormControl>
+              <InputLabel htmlFor="my-input">Table Status</InputLabel>
+              {tables ? <Input
+                value={` ${tables.status}`}
+                id="my-input" aria-describedby="my-helper-text" /> : null}
+            </FormControl>   
+           <br /><br />
+          </FormGroup>
+          <FormGroup>
+            <FormControl>
+              <InputLabel htmlFor="my-input"></InputLabel>
+              <Input
+                type="number"
+                name="food"
+                placeholder="Input ID Food"
+                onChange={this.handleChangeFood}
+                id="my-input" />
+            </FormControl>
+            <FormControl>
+              <InputLabel htmlFor="my-input">Qty_Food</InputLabel>
+              <Input
+                type="number"
+                name="qty_food"
+                onChange={this.handleChangeQtyfoods}
+                id="my-input" aria-describedby="my-helper-text" />
+            </FormControl>
+            <FormControl>
+              <InputLabel htmlFor="my-input"></InputLabel>
+              <Input
+                type="number"
+                placeholder="Input ID Drink"
+                onChange={this.handleChangeDrink}
+                name="drink"
+                id="my-input" aria-describedby="my-helper-text" />
+            </FormControl>
+            <FormControl>
+              <InputLabel htmlFor="my-input">Qty Drink</InputLabel>
+              <Input
+                type="number"
+                name="qty_drinks"
+                onChange={this.handleChangeQtydrinks} id="my-input" aria-describedby="my-helper-text" />
+            </FormControl>
+          </FormGroup>

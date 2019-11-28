@@ -1,0 +1,14 @@
+
+.card{
+  background-color: white;
+  margin : 10px;
+  margin-left:2% ;
+  margin-top: 5% ;
+  display: inline-block;
+  width :900px;
+  height: 1000px;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  }

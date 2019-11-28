@@ -1,0 +1,35 @@
+.listtransactions{
+    margin-top: 7%;
+}
+
+
+.row {
+    margin-left: -700px;
+  flex-direction: row;
+  margin-top:70px;
+  }
+/* 
+  .readOnly{   
+    margin-top:-3px;
+    margin-left:50px;
+}
+.font{
+
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+   
+
+
+.readOnly2{   
+    margin-top:50px;
+    margin-left:0px;
+}
+.font2{
+float: left;
+    margin-left: -140px;
+    margin-top: 80px;
+} */
+
+

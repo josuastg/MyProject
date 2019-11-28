@@ -1,0 +1,8 @@
+.order-ctr{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        width: 100%;
+        margin: 5%;
+}

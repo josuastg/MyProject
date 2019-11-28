@@ -1,0 +1,21 @@
+/* Header */
+.footer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: right;
+    color: black;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-image: linear-gradient(-90deg, rgb(4, 247, 255), yellow);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer h4{
+    margin-right: 50px;
+}
+.footer .c{
+    margin-top: 21px;
+}
+/* .footer  */
+/* Header */

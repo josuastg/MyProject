@@ -1,0 +1,18 @@
+
+.app-wmb{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.body-wmb{
+display: flex;
+flex-direction: row;
+background: #FFEFBA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/* background-image: url(./Image/Bg-image.jpg); */
+/* min-height: 100vh; */
+}
