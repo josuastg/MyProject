@@ -1,34 +1,33 @@
 package com.gbicr.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+
 
 import javax.persistence.*;
 import java.util.List;
 
-@Entity(name = "service")
-@Table(name = "service")
-public class Worship {
+@Entity
+@Table(name = "komsel")
+public class Komsel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-
     @Column
     private String name;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST,CascadeType.MERGE})
-    @JsonIgnore
-    @JoinTable(name = "service_has_person",
-            joinColumns = @JoinColumn(name = "person_id"),
-            inverseJoinColumns = @JoinColumn(name="service_id"))
-    private List<Person> person;
+    @Column
+    private String region;
 
-    public Worship(Integer id, String name) {
+    @OneToMany(mappedBy = "komsel", cascade = CascadeType.ALL)
+    private List<Person> persons;
+
+    public Komsel(Integer id, String name, String region) {
         this.id = id;
         this.name = name;
+        this.region = region;
     }
 
-    public Worship() {
+    public Komsel() {
     }
 
     public Integer getId() {
@@ -47,4 +46,11 @@ public class Worship {
         this.name = name;
     }
 
+    public String getRegion() {
+        return region;
+    }
+
+    public void setRegion(String region) {
+        this.region = region;
+    }
 }

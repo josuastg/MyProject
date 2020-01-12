@@ -1,34 +1,29 @@
 package com.gbicr.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
-@Entity(name = "service")
-@Table(name = "service")
-public class Worship {
+@Entity(name = "status_person")
+@Table(name = "status_person")
+public class StatusPerson implements Serializable {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-
     @Column
     private String name;
 
-    @ManyToMany(cascade = {CascadeType.PERSIST,CascadeType.MERGE})
-    @JsonIgnore
-    @JoinTable(name = "service_has_person",
-            joinColumns = @JoinColumn(name = "person_id"),
-            inverseJoinColumns = @JoinColumn(name="service_id"))
+    @OneToMany(mappedBy = "statusPerson", cascade = CascadeType.ALL)
     private List<Person> person;
 
-    public Worship(Integer id, String name) {
+    public StatusPerson(Integer id, String name) {
         this.id = id;
         this.name = name;
     }
 
-    public Worship() {
+    public StatusPerson() {
     }
 
     public Integer getId() {
@@ -46,5 +41,4 @@ public class Worship {
     public void setName(String name) {
         this.name = name;
     }
-
 }
