@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/family")
+@RequestMapping("/families")
 public class FamilyController {
 
     @Autowired
@@ -19,15 +19,15 @@ public class FamilyController {
         return familyService.findAll();
     }
 
-    @GetMapping("{id}")
+    @GetMapping("/family/{id}")
     public Family findById(@PathVariable Integer id) throws Exception {
         return familyService.findByid(id);
     }
-    @PostMapping("")
+    @PostMapping("/family")
     public  Family save(@RequestBody Family family){
         return familyService.save(family);
     }
-    @DeleteMapping("{id}")
+    @DeleteMapping("/family/{id}")
     public void remove(@PathVariable Integer id){
         familyService.remove(id);
     }

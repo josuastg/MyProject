@@ -1,6 +1,4 @@
 package com.gbicr.controllers;
-
-import com.gbicr.model.Komsel;
 import com.gbicr.model.Person;
 import com.gbicr.services.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/persons")
 public class PersonController {
 
     @Autowired
@@ -20,15 +18,16 @@ public class PersonController {
         return personService.findAll();
     }
 
-    @GetMapping("{id}")
+    @GetMapping("/person/{id}")
     public Person findById(@PathVariable Integer id) throws Exception {
         return personService.findById(id);
     }
-    @PostMapping("")
+    @PostMapping("/person")
     public  Person save(@RequestBody Person person){
         return personService.save(person);
     }
-    @DeleteMapping("{id}")
+
+    @DeleteMapping("/person/{id}")
     public void remove(@PathVariable Integer id){
         personService.remove(id);
     }
